@@ -13,7 +13,7 @@
 ## Authors
 
 * **Sercan Bayrambey** - [Github](https://github.com/sercanbayrambeyy)
-* **Gökay Meriç Şişik** - [Github](https://github.com/tassattir)
+* **Gökay Meriç Şişik** - [Github](https://github.com/tassatir)
 
 
 ## Servisler
