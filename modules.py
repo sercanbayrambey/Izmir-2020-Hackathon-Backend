@@ -1,7 +1,7 @@
 import requests,json,math,operator
 from resources import *
 
-def coupleTrans(origin,destination):
+def compareTrans(origin,destination):
    wcar = get_ddData(origin,destination,"driving")
    carduration = wcar["duration"]
    stationsnearme = GetNearestStations(origin)
@@ -22,4 +22,4 @@ def coupleTrans(origin,destination):
    ptranstotal =  ConvertHourToMinute(caruntilstation["duration"]) + math.floor(metroduration/60)
    print(f"Metro ile: {ptranstotal}")
    print(f"Araba İle: {wcar}")
-coupleTrans("38.435096, 27.168880","38.427115, 27.154540")
+compareTrans("38.435096, 27.168880","38.427115, 27.154540")
